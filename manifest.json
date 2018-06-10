@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "二维码",
+    "version": "1.0",
+    "description": "网页二维码生成器",
+    "icons": {
+        "16": "images/qrcode-16.png",
+        "48": "images/qrcode-48.png",
+        "128": "images/qrcode-128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/qrcode-19.png",
+            "38": "images/qrcode-38.png"
+        },
+        "default_title": "二维码",
+        "default_popup": "popup.html"
+    },
+    // "content_scripts": [
+    //     {
+    //         "matches": ["<all_urls>"],
+    //         "js": [""]
+    //     }
+    // ],
+    "permissions": [
+        "tabs"
+    ]
+}
